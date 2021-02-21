@@ -1,0 +1,9 @@
+[Plugin]
+Name = Archive Audiolog
+Version = 1.0.0
+URL = http://naomiproject.github.io/
+Description = Package an audiolog directory for storage or transport
+
+[Author]
+Name = Naomi Project
+URL = http://naomiproject.github.io/
