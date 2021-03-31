@@ -6,7 +6,9 @@ from naomi import plugin
 
 
 class ArchiveAudiologPlugin(plugin.STTTrainerPlugin):
-    def HandleCommand(self, command, description):
+    def HandleCommand(self, **kwargs):
+        command = kwargs['command']
+        description = kwargs['description']
         response = []
         try:
             audiolog_dir = paths.sub("audiolog")
